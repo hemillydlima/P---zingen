@@ -18,8 +18,7 @@
     --stroke-color:#27272A; 
     --text-primary: #F4F4F5; 
     --text-secondary:#A1A1AA; 
-
-
+    /* FONTE */
    --font-family: "Inter", sans-serif;
 
    --fs-xg:40px;
@@ -27,10 +26,17 @@
    --fs-g:20px; 
    --fs-med:16px; 
    --fs-reg:14px; 
-/* font weight  */
+
    --fw-big:800;
    --fw-med:500;
    --fw-reg:400;
+
+   /* PADDING */
+   --px-g:24px;
+
+   --py-reg:16px;
+   --py-med:24px;
+   --py-g:48px;
 }
 
 @media (width >= 80em) {
@@ -38,6 +44,11 @@
         --fs-xg:64px;
         --fs-gg:48px;
         --fs-g:32px; 
+
+        --px-g:32px;
+        --py-reg:24px;
+        --py-med:40px;
+        --py-g:80px;
     }
 }
 html{
@@ -50,6 +61,8 @@ html{
 body{
     background-color: var(--bg-color);
 }
+
+/* ESCRITA */
 h1, h2, h3{
     line-height: 1.2;
     color: var(--text-primary);
@@ -78,3 +91,6 @@ a{
     color: inherit;
     text-decoration: none;
 }
+
+
+
