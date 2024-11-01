@@ -1,0 +1,59 @@
+.btn-reg{
+    border: 0;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 12px 24px;
+
+    width:100px;
+
+    font: var(--fw-reg) 16px/1.5rem var(--font-family);
+    
+}
+.btn-hover:hover{
+    background: linear-gradient(90deg , #FC4A1A, #F7B733);
+
+}
+.btn-default{
+    background-color: var(--text-primary);
+}
+.btn-def-border{
+    background-color: var(--bg-color);
+    border: solid var(--text-primary);
+    border-radius: 8px;
+    color: var(--text-primary);
+
+}
+.btn-hover-border:hover{
+    /* RESOLVER O PROBLEMA DO BORDER-RADIUS */
+    border-image: linear-gradient(90deg, #FC4A1A, #F7B733)1;
+   
+    
+    
+}
+.btn-low{
+    border: 0;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding:8px 16px ;
+
+    font-size: 14px;
+
+    width:100px;
+}
+@media (width >= 80em) { 
+    .btn-reg{
+        font: var(--fw-reg) 18px/1.5rem var(--font-family);
+        padding: 16px 32px;
+        font-size: 18px;
+    }
+    
+}
+
+
+

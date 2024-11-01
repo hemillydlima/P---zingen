@@ -10,7 +10,7 @@
 }
 :root{
     /* CORES */
-    --brand-gradient:#FC4A1A#F7B733;
+    --brand-gradient:#FC4A1A, #F7B733;
     --brand-primary:#F7B733;
     --brand-secondary:#FC4A1A;
     --bg-color:#09090B;
