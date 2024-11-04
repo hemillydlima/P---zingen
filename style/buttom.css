@@ -18,6 +18,7 @@
 }
 .btn-reg:hover {
   background: linear-gradient(90deg, #f7b733 0%, #fc4a1a 100%);
+ 
 }
 
 .btn-low {
@@ -29,12 +30,18 @@
   align-items: center;
   padding: 8px 16px;
 
+  width: fit-content;
+
   font: 500 14px/1.5rem var(--font-family) ;
+  color: var(--bg-color);
+  background-color: var(--text-primary);
+
 
 }
 
 .btn-low:hover {
   background: linear-gradient(90deg, #f7b733 0%, #fc4a1a 100%);
+  color: var(--bg-color);
 }
 .btn-low[aria-label] {
   &::after {
@@ -47,6 +54,11 @@
     font: var(--fw-med) 18px/1.5rem var(--font-family);
     padding: 16px 32px;
     font-size: 18px;
+  }
+  .btn-low{
+    padding: 12px 24px;
+
+    font:500 16px/1.5rem var(--font-family);
   }
 }
 .btn-border {

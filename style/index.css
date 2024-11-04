@@ -2,12 +2,6 @@
 @import url(./../style/utility.css);
 @import url(./../style/buttom.css);
 @import url(./social.css);
+@import url(./../style/header.css);
 
-a[aria-label="instagram"] {
-    background-image: url(./../icons/instagram.svg);
-
-   &:hover{
-       background-image: url(./../icons/instagram-hover.svg);
-    }
-   
-}
+ 
