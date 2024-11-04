@@ -19,8 +19,7 @@
     --text-primary: #F4F4F5; 
     --text-secondary:#A1A1AA; 
     /* FONTE */
-   --font-family: "Inter", sans-serif;
-
+   --font-family: "Inter", serif;
    --fs-xg:40px;
    --fs-gg:24px;
    --fs-g:20px; 

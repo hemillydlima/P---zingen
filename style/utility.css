@@ -1,40 +1,51 @@
-/* LARGURA */
-.container{
-    --max-width:375px;
-    max-width:var(--max-width);
-    width: calc(100% - var(--px-g) * 2);
-    margin-inline: auto;
-    border: pink solid;
+/* content of page*/
+.container {
+  --max-width: 375px;
+  max-width: var(--max-width);
+  width: calc(100% - var(--px-g) * 2);
+  margin-inline: auto;
 }
-.desktop-only{
-    display: none;
+/* invisible in litte screens */
+.desktop-only {
+  display: none;
 }
-.even-coluns{
-    display: grid;
-    gap: 16px;
+/*display and spacing */
+.even-coluns {
+  display: grid;
+  gap: 16px;
 }
-/* PADDING */
-.px-g{
-    padding-inline: var(--px-g);
+.flex {
+  display: flex;
 }
-.py-reg{
-    padding-block: var(--py-reg);
+.grid {
+  display: grid;
 }
-.py-med{
-    padding-block: var(--py-med);
+.gap {
+  gap: 1rem;
 }
-.py-g{
-    padding-block: var(--py-g);
+
+/* padding in the boxes */
+.px-g {
+  padding-inline: var(--px-g);
 }
-@media (width >= 80em){
-    .container{
-        --max-width:80rem;
-    }
-    .desktop-only{
-        display: initial;
-    }
-    .even-coluns{
-        grid-auto-flow: column;
-        grid-auto-columns: 1fr;
-    }
+.py-reg {
+  padding-block: var(--py-reg);
+}
+.py-med {
+  padding-block: var(--py-med);
+}
+.py-g {
+  padding-block: var(--py-g);
+}
+@media (width >= 80em) {
+  .container {
+    --max-width: 80rem;
+  }
+  .desktop-only {
+    display: initial;
+  }
+  .even-coluns {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
 }
