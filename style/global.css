@@ -89,7 +89,16 @@ p{
 a{
     color: inherit;
     text-decoration: none;
-}
 
+    &:hover{
+        background: linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
+        color: transparent;
+        --webkit-background-clip:text;
+        background-clip: text;
+    }
+}
+ul[role="list"]{
+    list-style: none;
+}
 
 
