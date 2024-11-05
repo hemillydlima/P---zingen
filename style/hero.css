@@ -5,13 +5,42 @@
     }
 }
 #hero {
-    
+    width: 100%;
     flex-direction: column;
+    padding-top:80px ;
+    
     & h1{
     font: var(--fw-big) var(--fs-xg)/120% var(--font-family);
     }
     & h2{
         font: var(--fw-med) var(--fs-g) var(--font-family);
         color: var(--text-secondary);
+        padding-top: 16px;
     }
+}
+@media (width >=80em){
+    .br{
+        display: none;
+    }
+}
+@media (width <= 24em){
+    #hero{
+        padding-top:64px ;
+    }
+    #hero h1{
+        margin-inline: 24px;
+        font-size: 38px;
+    }
+    #hero p{
+        display: block;
+        text-align: center;
+        font: var(--fw-big) var(--fs-xg)/120% var(--font-family); 
+    }
+    .title{
+        display: none;
+    }
+    #hero h2{
+        padding-top: 8px;
+    }
+    
 }
