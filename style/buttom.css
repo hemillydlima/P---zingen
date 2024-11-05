@@ -9,6 +9,7 @@
 
   font:500 16px/1.5rem var(--font-family);
 
+  background-color: var(--text-primary);
   color: var(--bg-color);
 }
 .btn-reg[aria-label] {
@@ -18,6 +19,7 @@
 }
 .btn-reg:hover {
   background: linear-gradient(90deg, #f7b733 0%, #fc4a1a 100%);
+  color: var(--bg-color);
  
 }
 
@@ -86,6 +88,7 @@
   background: linear-gradient(black, black) padding-box,
     linear-gradient(90deg, #f7b733 0%, #fc4a1a 100%) border-box;
   border: 2px solid transparent;
+ 
 }
 
 .btn-border[aria-label] {
@@ -93,7 +96,9 @@
     content: attr(aria-label);
     background: linear-gradient(90deg, #f7b733 0%, #fc4a1a 100%);
     --webkit-background-clip: text;
-    background-clip: text;
+      background-clip: text;
+  
+
   }
 }
 .btn-border:hover {
