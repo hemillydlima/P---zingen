@@ -1,0 +1,17 @@
+@media (width >= 80em) {
+    #hero img{
+        width: 412;
+        height: 107px;
+    }
+}
+#hero {
+    
+    flex-direction: column;
+    & h1{
+    font: var(--fw-big) var(--fs-xg)/120% var(--font-family);
+    }
+    & h2{
+        font: var(--fw-med) var(--fs-g) var(--font-family);
+        color: var(--text-secondary);
+    }
+}

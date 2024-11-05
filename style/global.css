@@ -67,7 +67,7 @@ h1, h2, h3{
     color: var(--text-primary);
 }
 h1{
-    font-size: var(--fs-xg);
+    font-size: var(--fs-xg) ;
 }
 h2{
     font-size: var(--fs-gg);
