@@ -1,0 +1,21 @@
+#about{
+    ndex: 2;
+     background-color: var(--surface-color);
+    & h3{
+        font: var(--fw-med) var(--fs-reg) var(--font-family);
+        color:var(--brand-primary);
+    }
+    & h1{
+        font:800 var(--fs-gg) var(--font-family);
+    }
+}
+@media (width <=24rem){
+    #about{
+        display: block;
+    }
+    img{
+        
+        width: 312px;
+        height: 320px;
+    }
+}
