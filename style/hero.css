@@ -5,9 +5,13 @@
     }
 }
 #hero {
-    width: 100%;
+    width:1270px;
+    height: 700px;
     flex-direction: column;
-    padding-top:80px ;
+    
+    background: url(./../icons/Illustration.svg) no-repeat bottom center/contain;
+   
+    padding-bottom:15rem ;
     
    
     
@@ -30,12 +34,14 @@
         gap: 1rem;
         margin-top: 48px;
     }
- 
+
 }
+
 
 @media (width <=24em){
     #hero{
         padding-top:64px ;
+      
     }
 }   
     #hero h1{
