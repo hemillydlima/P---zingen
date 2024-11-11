@@ -6,31 +6,36 @@
 }
 #smartphone{
     background: url(./../icons/bgabout.svg) top/cover;
+    padding: 48px 24px;
+    border-radius: 24px;
+    
 
     & img{
-        margin:30px 30px 54px ;
+        margin-block:30px 54px  ;
+        margin-inline: auto;
         width: 312px;
         height: 320px;
         
+        
     }
     & h3{
-        font: var(--fw-med) var(--fs-reg)/100% var(--font-family);
+        font: var(--fw-med) 14px/100% var(--font-family);
         color: var(--brand-primary);
         margin-bottom: 8px;
         
     }
     & h1{
-        font: 800 var(--fs-gg)/120% var(--font-family);
+        font: 800 22px/120% var(--font-family);
         margin-bottom: 8px;
     }
     & p{
-        font:300 var(--fs-med)/160% var(--font-family);
+        font:300 13px/160% var(--font-family);
         color: var(--text-secondary);
         margin-bottom: 8px;
     }
     & .text{
         margin-top: 48px;
-        width: 327px;
+        /* width: 327px; */
 
     }
 }
