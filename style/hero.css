@@ -1,18 +1,17 @@
 @media (width >= 80em) {
+    #hero{
+
+        background: url(./../icons/Illustration.svg) no-repeat bottom center/contain;
+        height: 700px;
+    }
     #hero img{
         width: 412;
         height: 107px;
     }
 }
 #hero {
-    width:1270px;
-    height: 700px;
+    
     flex-direction: column;
-    
-    
-    background: url(./../icons/Illustration.svg) no-repeat bottom center/contain;
-   
-    padding-bottom:15rem ;
     
    
     
@@ -58,5 +57,6 @@
     }
     .botao{
         margin-top: 32px;
+
     }
     
