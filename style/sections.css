@@ -1,4 +1,4 @@
-@media (width >=80rem){
+@media (width >= 80rem){
     #smartphone{
         display: none;
     }
@@ -6,8 +6,8 @@
 }
 #smartphone{
     background: url(./../icons/bgabout.svg) top/cover;
-    padding: 48px 24px;
-    border-radius: 24px;
+    padding:50px 24px;
+    
     
 
     & img{

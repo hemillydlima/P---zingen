@@ -1,11 +1,6 @@
-@media(width <=24em){
-    #about{
-        display: none;
-    }
+ 
 
-}
-
-#about{
+ #about {
     background-color: var(--surface-color);
     padding-inline: 32px ;
     padding-bottom: 80px;
@@ -22,4 +17,17 @@
         font:300 var(--fs-med)/160% var(--font-family);
         color: var(--text-secondary);
     }
+}
+
+@media (width <=24em){
+     #about{
+        display: none;
+    }
+    #about img {
+        display: none;
+    }  
+    #about div{
+        display: none;
+    }
+      
 }
