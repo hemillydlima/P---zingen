@@ -1,65 +1,33 @@
-.caixa{
-    background-color: var(--surface-color);
-    border:1px solid var(--stroke-color);
-    border-radius: 24px;
-    padding: 40px 32px 48px;
-  
+ #features{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+   
+    
     & h1{
-        font: 800 32px/120% var(--font-family);
-
+        font: 800 32px/120%var(--font-family);
     }
     & p{
         font: 400 16px/160% var(--font-family);
         color: var(--text-secondary);
     }
+    #celular{
+        width: 240px;
+    }
+    
+    .caixa{
+        background-color: var(--surface-color);
+        border:1px solid var(--stroke-color);
+        border-radius: 24px;
+        width:280px ;
+        padding: 25px;
+
+    }
+  
+   
 }
-
-#features{
-    background: var(--bg-color);
-    padding: 48px 24px;
-
+#caixa{
     & #box-1{
-        margin-bottom: 8px;
-        margin-inline:0  32px;
-        width: 280px;
-       
-     
-    }
-    & #box-2{
-       
-        margin-bottom: 8px;
-        margin-inline: 0 32px;
-        width: 592px;
-        /* padding: 40px  48px; */
-
-        & #celular{
-            width: 240px;
-            height: 485.51px;
-
-           
-            
-
-        }
+        margin: 20px 500px auto 2px;
     }
 }
-/* @media (width <=24em){
-    #features{
-
-        & #box-1{
-            width: 327px;
-            
-            padding:28px 24px 24px;
-
-            & img{
-                margin-bottom: 16px;
-            }
-           
-        
-            & h1{
-                font: 800 20px/120% var(--font-family);
-                margin-bottom: 8px;
-            }
-        }
-    }
-         */
-/* } */

@@ -1,0 +1,30 @@
+@media (width <=24rem){
+    .caixa{
+
+    background-color: var(--surface-color);
+    border:1px solid var(--stroke-color);
+    border-radius: 24px;
+    padding: 24px;
+    margin: 24px;
+    
+    & img{
+        margin-bottom: 16px;
+    }
+  
+    & h1{
+        font: 800 20px/120% var(--font-family);
+        margin-bottom: 1rem;
+
+    }
+    & p{
+        font: 400 16px/160% var(--font-family);
+        color: var(--text-secondary);
+    }
+}
+}
+/* @media (width <=24rem){
+    #features {
+        display: grid;
+    }
+
+} */
