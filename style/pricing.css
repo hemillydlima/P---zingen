@@ -1,0 +1,51 @@
+#pricing{
+
+    & h4{
+        color: var(--brand-primary);
+        font: 400 16px/140% var(--font-family);
+        text-align: center;
+    }
+    & h2{
+        font: 800 48px/120% var(--font-family);
+        text-align: center;
+        margin:8px auto 32px;
+        max-width: 800px;
+        
+    }
+    & zin-pricing{
+        font: 800 40px/120% var(--font-family);
+    }
+
+    & p{
+        margin-bottom: 24px;
+    }
+    & a{
+        margin: 24px auto;
+    }
+
+    & .card{
+        max-width: 384px;
+    }
+    & ul li{
+        display: flex;
+
+    }
+    .btn-border{
+        background-color: var(--surface-color);
+    }
+    
+
+}
+
+@media (width <=25rem){
+    #pricing{
+         
+        & h2{
+            font: 800 24px/120% var(--font-family);
+            
+        }
+        & zin-pricing{
+            font: 800 32px/120% var(--font-family);
+        }
+    }
+}
