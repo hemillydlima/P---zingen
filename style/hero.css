@@ -28,6 +28,7 @@
     }
     .title{
         display: flex;
+        text-align: center;
     }
     .botao{
         display: flex;
@@ -47,7 +48,7 @@
   
     #hero h1{
         display: block;
-        text-align: center;
+        margin: auto;
         font: var(--fw-big) var(--fs-xg)/120% var(--font-family); 
     }
     .title{
@@ -62,7 +63,9 @@
     } 
     .br{
         display: inline;
+        
     }
+    
     
 }   
 
