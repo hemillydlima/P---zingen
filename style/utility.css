@@ -22,7 +22,7 @@
   display: grid;
 }
 .gap {
-  gap: 1rem;
+  gap: 1.5rem;
 }
 .itens-center{
     align-items: center;

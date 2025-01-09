@@ -1,0 +1,15 @@
+.card{
+    background-color: var(--surface-color);
+    border: 1px solid var(--stroke-color);
+    border-radius: 24px;
+
+    & h3{
+        margin-top: 1rem;
+        font: 800 20px/120% var(--font-family);
+    }
+    & p{
+        margin-top:.5rem;
+        font: 400 16px/160% var(--font-family);
+        color: var(--text-secondary);
+    }
+}
