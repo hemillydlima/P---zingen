@@ -4,13 +4,21 @@
         text-align: center;
     }
 
+    & .card:nth-child(1){
+        max-width: 384px;
+    }
+    & .card:nth-child(2){
+        max-width: 384px;
+    }
+    /* & .card:nth-child(3){
+        max-width: 384px;
+    } */
+
     & .cards{
         margin-top: 2rem;
     }
 
-    & .card:nth-child(1){
-        margin-top: 0
-    }
+    
     & .card{
         max-width: 384px;
         margin-top: 1.3rem;
@@ -32,7 +40,7 @@
     & h2{
         font: 800 48px/120% var(--font-family);
         margin: 8px auto 0;
-        max-width: 800px;
+        
         
     }
 
@@ -60,9 +68,8 @@
         padding-right: 8px;
       
     }
-    & li{
-        background: url(./../icons/check.svg) no-repeat;
-    }
+    
+    
 
 
     & ul + small{
@@ -72,6 +79,37 @@
     }
 
 }
+
+
+& .premium-1{
+    background: linear-gradient(var(--surface-color),var(--surface-color)) padding-box,
+    linear-gradient(90deg, #f7b733 0%, #fc4a1a 100%) border-box;
+  border: 1px solid transparent;
+  border-radius: 24px;
+  position: relative;
+
+
+}
+& .premium h3{
+    margin-top: 40px;
+  }
+& span{
+    color: var(--surface-color);
+    font-weight: 700;
+    font-size: 12px;
+    font-family: var(--font-family);
+    padding: 12px 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 auto 28px 0;
+    
+    background: linear-gradient(90deg, #f7b733 0%, #fc4a1a 100%);
+    border-radius: 24px 0 ;
+}
+
+
+
 
 @media (width <=26rem){
     #pricing{
@@ -83,5 +121,17 @@
         & zin-pricing{
             font: 800 32px/120% var(--font-family);
         }
+        
+
+    }
+}
+
+@media (width >=80rem){
+    #pricing{
+
+        & .premium li + li + li {
+           margin-bottom: 92px;
+        }
+       
     }
 }
