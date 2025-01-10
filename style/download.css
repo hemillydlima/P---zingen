@@ -1,0 +1,42 @@
+#download{
+
+    position: relative;
+    /* height: 662px; */
+
+    & h4{
+        color: var(--brand-primary);
+        font: 400 14px/120% var(--font-family);
+    }
+    & h3{
+        font-size: 24px;
+    }
+    & img{
+        max-width: 238px;
+        position:absolute;
+      
+    }
+    & p{
+        margin-bottom: 32px;
+    }
+    
+}
+@media (width >=80rem){
+    #download{
+
+        margin-top: 80px;
+
+        & h3{
+            font-size: 48px;
+        }
+        & img{
+           
+            max-width: 400px;
+            bottom: 0;
+            margin-top: 80px;
+            
+        }
+        & p{
+            max-width: 670px;
+        }
+    }
+}
