@@ -1,43 +1,76 @@
 #pricing{
+    
+    & header{
+        text-align: center;
+    }
 
+    & .cards{
+        margin-top: 2rem;
+    }
+
+    & .card:nth-child(1){
+        margin-top: 0
+    }
+    & .card{
+        max-width: 384px;
+        margin-top: 1.3rem;
+    }
+    
+    & .card p{
+    margin-bottom: 24px;
+    }
+
+    & .card a{
+    margin: 24px auto;
+    }
+    
     & h4{
         color: var(--brand-primary);
         font: 400 16px/140% var(--font-family);
-        text-align: center;
     }
+    
     & h2{
         font: 800 48px/120% var(--font-family);
-        text-align: center;
-        margin:8px auto 32px;
+        margin: 8px auto 0;
         max-width: 800px;
         
     }
+
     & zin-pricing{
         font: 800 40px/120% var(--font-family);
     }
-
-    & p{
-        margin-bottom: 24px;
-    }
-    & a{
-        margin: 24px auto;
-    }
-
-    & .card{
-        max-width: 384px;
-    }
-    & ul li{
-        display: flex;
-
+    & zin-pricing small{
+        font: 400 16px var(--font-family);
+        color: var(--text-secondary);
     }
     .btn-border{
         background-color: var(--surface-color);
     }
-    
+
+    & .separator{
+        height: 1px;
+        margin-block: 2rem;
+        background: radial-gradient(var(--text-secondary), var(--surface-color) 70%);
+    }
+    & ul li{
+        display: flex;
+    }
+    & li img{
+        transform: translateY(-17%);
+        padding-right: 8px;
+      
+    }
+
+
+    & ul + small{
+        color: var(--text-secondary);
+        font-size: 14px;
+        margin-top: 24px;
+    }
 
 }
 
-@media (width <=25rem){
+@media (width <=26rem){
     #pricing{
          
         & h2{
