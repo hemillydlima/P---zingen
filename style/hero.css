@@ -1,6 +1,5 @@
 @media (width >= 80em) {
     #hero{
-
         background: url(./../assets/icons/Illustration.svg) no-repeat bottom center/contain;
         height: 700px;
     }
@@ -10,14 +9,8 @@
     }
 }
 #hero {
-    background: url(./../assets/icons/Illustration.svg) no-repeat bottom center/contain;
-        height: 700px;
-        
-    
     flex-direction: column;
-    
-   
-   
+
     & h1{
     font: var(--fw-big) var(--fs-xg)/120% var(--font-family);
     }
