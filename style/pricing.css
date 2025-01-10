@@ -60,6 +60,9 @@
         padding-right: 8px;
       
     }
+    & li{
+        background: url(./../icons/check.svg) no-repeat;
+    }
 
 
     & ul + small{
