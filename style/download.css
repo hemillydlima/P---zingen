@@ -1,36 +1,61 @@
-#download{
+@media (width <=28em){
 
-
-    padding: 0;
-    & h4{
-        color: var(--brand-primary);
-        font: 400 14px/120% var(--font-family);
+    #download{
+        position: relative;
+        margin-bottom: 80px;
+        
+        & h4{
+            color: var(--brand-primary);
+            font: 400 14px/120% var(--font-family);
+        }
+        & h3{
+            font-size: 24px;
+        }
+        & img{
+            max-width: 238px;
+            
+            
+        }
+        & p{
+            margin-bottom: 32px;
+        }
+        
+        & .homem{
+           max-width: 178px;
+           position: absolute;
+           bottom: 0;
+           right: -30px;
+           
+        }
+        & .flex{
+            display: block;
+        }
+        
+        & #container-download{
+            height: 542px;
+            width: 100%;
+            padding-block: 48px;
+            
+        }
+        
     }
-    & h3{
-        font-size: 24px;
-    }
-    & img{
-        max-width: 238px;
-        overflow: hidden;
- 
-    }
-    & p{
-        margin-bottom: 32px;
-    }
-    & img{
-        margin:auto -20px 160px auto;
-    }
-    
 }
 #card-download{
     border: none;
 }
-@media (width >=80rem){
+@media (width >=75rem){
     #download{
         max-width:calc(100% - 32px * 2);
         height: 542px;
         
         margin: 80px auto 80px;
+
+ 
+
+        & h4{
+            color: var(--brand-primary);
+            font: 400 14px/120% var(--font-family);
+        }
     
 
         & h3{
@@ -38,13 +63,25 @@
         }
         & img{
            
-            max-width: 466px;
+            /* max-width: 466px; */
  
             
         }
         & p{
             max-width: 670px;
             margin-bottom: 40px;
+        }
+        #card-download{
+            padding: 140px 80px 140px 80px;
+            position: relative;
+        }
+
+        .homem{
+            max-width: 466px;
+           position: absolute;
+           bottom: 0;
+           left: 789px;
+           
         }
     }
 }

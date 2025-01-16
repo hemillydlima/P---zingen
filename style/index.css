@@ -7,7 +7,7 @@
 @import url(about.css);
 @import url(smartphone.css);
 @import url(cards.css);
-@import url(features.css) (width >=80rem);
+@import url(features.css) (width >=75rem);
 @import url(pricing.css);
 @import url(download.css);
 

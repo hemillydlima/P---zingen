@@ -101,7 +101,7 @@
 
 
 
-@media (width <=26rem){
+@media (width <=28em){
     #pricing{
          
         & h2{
@@ -116,7 +116,7 @@
     }
 }
 
-@media (width >=80rem){
+@media (width >=75rem){
     #pricing{
 
         & .premium li + li + li {

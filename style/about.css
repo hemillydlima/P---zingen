@@ -1,9 +1,9 @@
-@media(width <=24em){
+@media(width <=28em){
     #about{
         display: none;
     }
 }
-@media(width >=80em){
+@media(width >=75rem){
 
     #about {
        background-color: var(--surface-color);
