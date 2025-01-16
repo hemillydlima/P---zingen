@@ -50,23 +50,15 @@
         
         margin: 80px auto 80px;
 
- 
-
         & h4{
             color: var(--brand-primary);
             font: 400 14px/120% var(--font-family);
-        }
-    
+        }   
 
         & h3{
             font-size: 48px;
         }
-        & img{
-           
-            /* max-width: 466px; */
- 
-            
-        }
+       
         & p{
             max-width: 670px;
             margin-bottom: 40px;
@@ -75,7 +67,6 @@
             padding: 140px 80px 140px 80px;
             position: relative;
         }
-
         .homem{
             max-width: 466px;
            position: absolute;

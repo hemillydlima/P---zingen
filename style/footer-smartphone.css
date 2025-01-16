@@ -1,0 +1,50 @@
+@media(width <=26em){
+
+    footer{
+        height: 788px;
+        display: block;
+        position: relative;
+
+        & h4:nth-child(1){
+            margin-top: 48px;
+        }
+    
+        & h4{
+            color: var(--brand-primary);
+            font: 500 12px/120% var(--font-family);
+            margin-top: 64px;
+            margin-bottom: 20px;
+        }
+        
+        & p{
+            color: var(--text-secondary);
+            font: 500 16px/160% var(--font-family);
+            margin-bottom: 20px;
+        }
+        & .icons a + a {
+            margin-left: 24px;
+        }  
+        & .icons{
+            position: absolute;
+            left: 48px;
+            bottom: 72px;
+
+        
+        }
+       
+        & #footer{
+            position: absolute;
+            bottom: 24px;
+            left: 48px;
+        }
+
+    }
+}
+
+@media (width >=75em){
+
+    #smartphone-2{
+
+        display: none;
+    }
+}

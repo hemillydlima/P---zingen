@@ -1,0 +1,24 @@
+@media (width <=26em){
+    #desktop{
+        display: none;
+
+    }
+}
+
+#desktop{
+
+
+    & h4{
+        color: var(--brand-primary);
+        font: 500 12px/120% var(--font-family);
+    }
+    & p{
+        color: var(--text-secondary);
+        font: 500 16px/160% var(--font-family);
+    }
+    & .card{
+        background: none;
+        border: none;
+        display: block
+    }
+}

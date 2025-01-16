@@ -13,3 +13,8 @@
         color: var(--text-secondary);
     }
 }
+@media (width >=75em){
+    .card h3 {
+        font-size: 32px;
+    }
+}
