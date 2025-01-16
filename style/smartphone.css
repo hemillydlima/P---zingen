@@ -1,13 +1,13 @@
-@media (width >= 24rem){
+@media(width >=80em){
     #smartphone{
         display: none;
     }
-    
 }
 #smartphone{
     background: url(./../assets/icons/bgabout.svg) top/cover;
     padding:50px 24px;
-    display: block;
+    
+    
     
     
 
@@ -36,7 +36,7 @@
     }
     & .text{
         margin-top: 48px;
-        /* width: 327px; */
+      
 
     }
 }

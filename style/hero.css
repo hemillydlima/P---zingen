@@ -1,7 +1,7 @@
 @media (width >= 80em) {
     #hero{
         background: url(./../assets/icons/Illustration.svg) no-repeat bottom center/contain;
-        height: 700px;
+        height: 690px;
     }
     #hero img{
         width: 412;
@@ -30,6 +30,8 @@
         display: flex;
         gap: 1rem;
         margin-top: 48px;
+
+     
     }
 
 }

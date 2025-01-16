@@ -1,14 +1,14 @@
-@import url(./../style/global.css);
-@import url(./../style/utility.css);
-@import url(./../style/buttom.css);
-@import url(./../style/social.css);
-@import url(./../style/header.css);
-@import url(./../style/hero.css);
-@import url(./../style/about.css);
-@import url(./../style/sections.css);
-@import url(./../style/cards.css);
+@import url(global.css);
+@import url(utility.css);
+@import url(buttom.css);
+@import url(social.css);
+@import url(header.css);
+@import url(hero.css);
+@import url(about.css);
+@import url(smartphone.css);
+@import url(cards.css);
 @import url(features.css) (width >=80rem);
-@import url(./../style/pricing.css);
-@import url(./../style/download.css);
+@import url(pricing.css);
+@import url(download.css);
 
  
