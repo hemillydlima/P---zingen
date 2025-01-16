@@ -1,8 +1,7 @@
 #download{
 
-    position: relative;
-    /* height: 662px; */
 
+    padding: 0;
     & h4{
         color: var(--brand-primary);
         font: 400 14px/120% var(--font-family);
@@ -12,31 +11,43 @@
     }
     & img{
         max-width: 238px;
-        position:absolute;
-      
+        overflow: hidden;
+ 
     }
     & p{
         margin-bottom: 32px;
     }
+    & img{
+        margin:auto -20px 160px auto;
+    }
     
+}
+#card-download{
+    border: none;
 }
 @media (width >=80rem){
     #download{
-
-        margin-top: 80px;
+        max-width:calc(100% - 32px * 2);
+        height: 542px;
+        
+        margin: 80px auto 80px;
+        
+        & .card-download{
+            
+       }
 
         & h3{
             font-size: 48px;
         }
         & img{
            
-            max-width: 400px;
-            bottom: 0;
-            margin-top: 80px;
+            max-width: 466px;
+ 
             
         }
         & p{
             max-width: 670px;
+            margin-bottom: 40px;
         }
     }
 }

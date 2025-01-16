@@ -4,23 +4,13 @@
         text-align: center;
     }
 
-    & .card:nth-child(1){
-        max-width: 384px;
-    }
-    & .card:nth-child(2){
-        max-width: 384px;
-    }
-    /* & .card:nth-child(3){
-        max-width: 384px;
-    } */
-
     & .cards{
         margin-top: 2rem;
     }
 
     
     & .card{
-        max-width: 384px;
+
         margin-top: 1.3rem;
     }
     
