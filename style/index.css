@@ -11,6 +11,6 @@
 @import url(pricing.css);
 @import url(download.css);
 @import url(footer-smartphone.css);
-@import url(footer.css);
+@import url(footer.css)(width >=75rem) ;
 
  

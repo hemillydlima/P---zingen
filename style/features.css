@@ -28,7 +28,7 @@
 
         & img.desktop-only{
             bottom: 2rem;
-            left: 2rem;
+            left: 8px;
         }
 
         & div{
@@ -46,4 +46,5 @@
             max-width: 16rem;
         }
     }
+    
 }

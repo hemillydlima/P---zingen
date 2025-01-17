@@ -1,4 +1,4 @@
-@media (width >= 80em) {
+@media (width >= 75em) {
     #hero{
         background: url(./../assets/icons/Illustration.svg) no-repeat bottom center/contain;
         height: 690px;
@@ -37,7 +37,7 @@
 }
 
 
-@media (width <=28em){
+@media (width >=27rem){
 
     #hero{
         padding-top:64px ;

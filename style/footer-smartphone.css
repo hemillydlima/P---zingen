@@ -1,12 +1,14 @@
-@media(width <=26em){
-
-    footer{
+  #smartphone-2{
         height: 788px;
         display: block;
         position: relative;
 
         & h4:nth-child(1){
             margin-top: 48px;
+        }
+
+        & img:nth-child(1){
+            margin-left: 24px;
         }
     
         & h4{
@@ -22,11 +24,11 @@
             margin-bottom: 20px;
         }
         & .icons a + a {
-            margin-left: 24px;
+            margin-left: 8px;
         }  
         & .icons{
             position: absolute;
-            left: 48px;
+            left: 24px;
             bottom: 72px;
 
         
@@ -38,8 +40,8 @@
             left: 48px;
         }
 
-    }
-}
+  }
+
 
 @media (width >=75em){
 

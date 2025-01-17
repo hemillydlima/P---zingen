@@ -1,6 +1,4 @@
-@media (width <=28em){
-
-    #download{
+ #download{
         position: relative;
         margin-bottom: 80px;
         
@@ -13,8 +11,8 @@
         }
         & img{
             max-width: 238px;
-            
-            
+            margin-left: 0;
+    
         }
         & p{
             margin-bottom: 32px;
@@ -39,7 +37,7 @@
         }
         
     }
-}
+
 #card-download{
     border: none;
 }

@@ -41,11 +41,11 @@
 .py-g {
   padding-block: var(--py-g);
 }
-@media (width >= 80em) {
+@media (width >= 75em) {
   .container {
     --max-width: 80rem;
   }
-  .desktop-only {
+  .desktop-only{
     display: initial;
   }
   .even-coluns {

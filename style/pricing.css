@@ -56,6 +56,7 @@
     & li img{
         transform: translateY(-17%);
         padding-right: 8px;
+        margin: 0;
       
     }
     
@@ -101,7 +102,7 @@
 
 
 
-@media (width <=28em){
+@media (width <=27em){
     #pricing{
          
         & h2{
