@@ -61,16 +61,21 @@
             max-width: 670px;
             margin-bottom: 40px;
         }
-        #card-download{
-            padding: 140px 80px 140px 80px;
-            position: relative;
-        }
-        .homem{
+        & .homem{
             max-width: 466px;
-           position: absolute;
-           bottom: 0;
-           left: 789px;
-           
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            
         }
+        & a{
+            padding-bottom: 80px;
+        }
+        
+    }
+    #card-download{
+        padding: 140px 80px 140px 80px;
+        position: relative;
+    
     }
 }
