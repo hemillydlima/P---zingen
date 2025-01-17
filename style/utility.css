@@ -1,5 +1,5 @@
 /* content of page*/
-.container {
+.container{
   --max-width: 375px;
   max-width: var(--max-width);
   width: calc(100% - var(--px-g) * 2);
@@ -42,8 +42,8 @@
   padding-block: var(--py-g);
 }
 @media (width >= 75em) {
-  .container {
-    --max-width: 80rem;
+  .container{
+    --max-width:80rem;
   }
   .desktop-only{
     display: initial;

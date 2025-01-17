@@ -34,6 +34,7 @@
             width: 100%;
             padding-block: 48px;
             
+            position: relative;
         }
         
     }
@@ -51,6 +52,7 @@
         & h4{
             color: var(--brand-primary);
             font: 400 14px/120% var(--font-family);
+            
         }   
 
         & h3{
@@ -75,7 +77,6 @@
     }
     #card-download{
         padding: 140px 80px 140px 80px;
-        position: relative;
     
     }
 }
